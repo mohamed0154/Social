@@ -1,0 +1,62 @@
+
+i.fa.fa-heart.heart_icons2 {
+    /* margin-left: -71px; */
+    /*     color:#e2d7d7 */
+}
+
+i.fa.fa-heart.heart_icons2.st_icon {}
+
+.st_icon {
+   /* position: absolute; */
+   left: 542px;
+   margin-top:-21px;
+}
+.st_icon {
+    /* margin-left: -10px; */
+    /*      color: #f51414;  */
+}
+/* input[type="checkbox"]{
+	width:80px
+} */
+/*
+.heart {
+    display: none;
+}
+
+ */
+/* .heart + label {
+/*     position: relative; */
+    padding-left: 35px;
+    display: inline-block;
+    font-size: 16px;
+}
+/* 
+.heart + label:before {
+    content: "\1F5A4";
+    top: -11px;
+    left: -8px;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+	transition:  .5s ease;
+} */
+
+
+
+.heart:checked + label:before {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.heart:checked + label:after {
+    content: '\1F49B';
+    font-size: 18px;
+    position: absolute;
+    top: -1px;
+    left: 1px;
+	color: #fb3333;
+	transition:  .5s ease;
+} */
+ */
